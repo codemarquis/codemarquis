@@ -113,7 +113,7 @@
 ### `$ fortune | dev`
 
 <div align="center">
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=github_dark&bgColor=0d1117&borderColor=30363d&quoteColor=c9d1d9&authorColor=39d353&symbolColor=39d353" alt="Random dev quote"/>
+<img src="https://codemarquis.github.io/codemarquis/quote.svg" alt="Rotating tech &amp; motivational quote" width="100%"/>
 </div>
 
 ### `$ ping codemarquis`
