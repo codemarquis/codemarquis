@@ -7,6 +7,7 @@
 **Cloud & DevOps Engineer** — I automate infrastructure, build secure delivery pipelines, and keep production boring.
 
 <img src="https://img.shields.io/badge/status-open_to_work-39d353?style=flat-square&labelColor=0d1117" alt="Open to work"/>
+<a href="https://www.linkedin.com/in/gerald-ezeani"><img src="https://img.shields.io/badge/Connect_on-LinkedIn-0A66C2?style=flat-square&labelColor=0d1117" alt="Connect on LinkedIn"/></a>
 <br/>
 <sub>Looking for <b>Cloud</b>, <b>DevOps</b> &amp; <b>DevSecOps</b> roles</sub>
 
@@ -117,7 +118,7 @@
 
 ### `$ ping codemarquis`
 
-[![Medium](https://img.shields.io/badge/Medium-0d1117?style=flat-square&logo=medium&logoColor=white)](https://medium.com/@codemarquis) [![Stack Overflow](https://img.shields.io/badge/Stack_Overflow-0d1117?style=flat-square&logo=stackoverflow&logoColor=F58025)](https://stackoverflow.com/users/codemarquis) [![Quora](https://img.shields.io/badge/Quora-0d1117?style=flat-square&logo=quora&logoColor=B92B27)](https://quora.com/profile/codemarquis) [![Twitch](https://img.shields.io/badge/Twitch-0d1117?style=flat-square&logo=twitch&logoColor=9146FF)](https://twitch.tv/codemarquis) [![CodePen](https://img.shields.io/badge/CodePen-0d1117?style=flat-square)](https://codepen.io/codemarquis)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square)](https://www.linkedin.com/in/gerald-ezeani) [![Medium](https://img.shields.io/badge/Medium-0d1117?style=flat-square&logo=medium&logoColor=white)](https://medium.com/@codemarquis) [![Stack Overflow](https://img.shields.io/badge/Stack_Overflow-0d1117?style=flat-square&logo=stackoverflow&logoColor=F58025)](https://stackoverflow.com/users/codemarquis) [![Quora](https://img.shields.io/badge/Quora-0d1117?style=flat-square&logo=quora&logoColor=B92B27)](https://quora.com/profile/codemarquis) [![Twitch](https://img.shields.io/badge/Twitch-0d1117?style=flat-square&logo=twitch&logoColor=9146FF)](https://twitch.tv/codemarquis) [![CodePen](https://img.shields.io/badge/CodePen-0d1117?style=flat-square)](https://codepen.io/codemarquis)
 
 <sub>Support my work: [Buy Me a Coffee](https://buymeacoffee.com/codemarquis) · [Ko-fi](https://ko-fi.com/codemarquis) · [Patreon](https://patreon.com/codemarquis) · [PayPal](https://paypal.me/codemarquis)</sub>
 
