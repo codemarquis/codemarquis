@@ -110,10 +110,14 @@
 <img src="https://streak-stats.demolab.com/?user=codemarquis&hide_border=true&background=0d1117&ring=39d353&fire=39d353&currStreakLabel=39d353&sideLabels=c9d1d9&currStreakNum=c9d1d9&sideNums=c9d1d9&dates=8b949e&stroke=30363d" height="165" alt="GitHub streak"/>
 </div>
 
-### `$ fortune | dev`
+### `$ cat motto.txt`
 
 <div align="center">
-<img src="https://codemarquis.github.io/codemarquis/quote.svg" alt="Rotating tech &amp; motivational quote" width="100%"/>
+
+*"Dubito, ergo cogito, ergo sum"* ~ René Descartes
+
+🧬 **Code:** Audi. Vide. Tace. Si Vis Vivere In Pace
+
 </div>
 
 ### `$ ping codemarquis`
