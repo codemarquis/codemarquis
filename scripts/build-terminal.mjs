@@ -108,9 +108,11 @@ function discrete(attr, pairs, value0) {
 
 const fmt = (n) => +n.toFixed(2);
 
+// Once a line is fully typed its clip opens to the full width, so a font wider
+// than CW can never leave the end of a finished line hidden.
 const clips = lines.map((l, i) =>
   `<clipPath id="c${i}"><rect x="${PAD_X - 2}" y="${l.y - FONT}" height="${LH}" width="0">` +
-  discrete('width', l.steps.map(([time, n]) => [time, fmt(n * CW + 2)]), 0) +
+  discrete('width', l.steps.map(([time, n]) => [time, n >= l.full.length ? W : fmt(n * CW + 2)]), 0) +
   `</rect></clipPath>`).join('\n    ');
 
 const texts = lines.map((l, i) => {
@@ -121,7 +123,10 @@ const texts = lines.map((l, i) => {
     const fill = l.type === 'hi' ? COLORS.hi : COLORS.out;
     body = `<tspan fill="${fill}">${esc(l.text)}</tspan>`;
   }
-  return `<text x="${PAD_X}" y="${l.y}" clip-path="url(#c${i})" xml:space="preserve">${body}</text>`;
+  // textLength pins every font to the CW grid, so typing, clip and cursor stay
+  // aligned whether the viewer gets Menlo, SF Mono, Consolas or DejaVu.
+  const len = l.full.length ? ` textLength="${fmt(l.full.length * CW)}" lengthAdjust="spacingAndGlyphs"` : '';
+  return `<text x="${PAD_X}" y="${l.y}"${len} clip-path="url(#c${i})" xml:space="preserve">${body}</text>`;
 }).join('\n    ');
 
 const cx = discrete('x', cursor.map(([time, x]) => [time, fmt(x)]), -100);

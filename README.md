@@ -113,11 +113,7 @@
 ### `$ cat motto.txt`
 
 <div align="center">
-
-*"Dubito, ergo cogito, ergo sum"* ~ René Descartes
-
-🧬 **Code:** Audi. Vide. Tace. Si Vis Vivere In Pace
-
+<img src="./assets/motto.svg" alt="“Dubito, ergo cogito, ergo sum” ~ René Descartes. 🧬 Code: Audi. Vide. Tace. Si Vis Vivere In Pace" width="100%"/>
 </div>
 
 ### `$ ping codemarquis`
@@ -126,4 +122,4 @@
 
 <sub>Support my work: [Buy Me a Coffee](https://buymeacoffee.com/codemarquis) · [Ko-fi](https://ko-fi.com/codemarquis) · [Patreon](https://patreon.com/codemarquis) · [PayPal](https://paypal.me/codemarquis)</sub>
 
-<!-- Terminal animation: edit SCRIPT in scripts/build-terminal.mjs, then run `node scripts/build-terminal.mjs`. -->
+<!-- Terminal: edit SCRIPT in scripts/build-terminal.mjs, run `node scripts/build-terminal.mjs`. Motto: edit scripts/build-motto.mjs, run `node scripts/build-motto.mjs`. -->
